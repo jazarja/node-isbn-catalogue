@@ -87,7 +87,7 @@ describe('ISBN Resolver', function() {
       assert.equal(book.publisher, 'Turtle Bay Books');
       assert.equal(book.publishedDate, '1992');
       assert.equal(book.pageCount, 521);
-      assert.equal(book.language, 'en');
+      assert.equal(book.language, 'eng');
       done();
     })
   });
@@ -135,7 +135,7 @@ describe('ISBN Resolver', function() {
       assert.equal(book.title, 'Book Title');
       assert.equal(book.publisher, 'Turtle Bay Books');
       assert.equal(book.publishedDate, '1992');
-      assert.equal(book.language, 'en');
+      assert.equal(book.language, 'eng');
       done();
     })
   });

@@ -1,5 +1,7 @@
 # node-isbn
 
+Based on the original project node-isbn (https://github.com/palmerabollo/node-isbn).
+
 A simple node.js module that **resolves books by ISBN** using multiple services:
 * [Google Books API](https://developers.google.com/books/)
 * [Open Library Books API](https://openlibrary.org/dev/docs/api/books)
@@ -8,7 +10,7 @@ A simple node.js module that **resolves books by ISBN** using multiple services:
 ## Example
 
 ```javascript
-var isbn = require('node-isbn');
+var isbn = require('node-isbn-catalogue');
 
 isbn.resolve('0735619670', function (err, book) {
     if (err) {
