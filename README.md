@@ -1,4 +1,4 @@
-# node-isbn
+# node-isbn-catalogue
 
 Based on the original project node-isbn (https://github.com/palmerabollo/node-isbn).
 
