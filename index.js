@@ -70,10 +70,10 @@ function _resolveOpenLibrary(isbn, callback) {
         };
 
         if (undefined !== book.details.isbn_13) {
-            standardBook.industryIdentifiers({type: 'ISBN_13', identifier: book.details.isbn_13});
+            standardBook.industryIdentifiers.push({type: 'ISBN_13', identifier: book.details.isbn_13});
         }
         if (undefined !== book.details.isbn_10) {
-            standardBook.industryIdentifiers({type: 'ISBN_10', identifier: book.details.isbn_10});
+            standardBook.industryIdentifiers.push({type: 'ISBN_10', identifier: book.details.isbn_10});
         }
 
         if (book.details.publishers) {
